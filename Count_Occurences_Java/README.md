@@ -6,6 +6,18 @@ K = 3
 Example output:
 4
 
+Sollution :
+---------------------
+
+A . Recursion : Find the middle element. If the element is greater than the one you are looking, search the array in left. If bigger, the array in right. If is equal search both and increase counter.
+
+B.(not implemented) : Always try to find the middle element. What we want is by splitting the arrays in halves, to find beginning and end of the same number. Then we just subtract the indexes.
+
+
+
+---------------------
+
+
 
 Passing :
 
