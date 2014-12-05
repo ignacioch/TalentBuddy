@@ -1,21 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>     /* strcat */
-
-const char *byte_to_binary(int x)
-{
-    static char b[32];
-    b[0] = '\0';
-
-    int z;
-    for (z = 128; z > 0; z >>= 1)
-    {
-        strcat(b, ((x & z) == z) ? "1" : "0");
-    }
-
-    return b;
-}
-
 
 //assumes little endian
 void printBits(size_t const size, void const * const ptr)
