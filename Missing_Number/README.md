@@ -48,7 +48,5 @@ The sum of the elements in the arrays is :
 
 so we have two equations with two unknowns, therefore it can be solved.
 
-The same can be expanded until k missing numbers. "N/A";
-$snow_b_number = "N/A";
-$temp_number = "N/A";
+The same can be expanded until k missing numbers.
 
